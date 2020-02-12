@@ -1,0 +1,721 @@
+*{
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+
+body{
+	margin:0px;
+	
+}
+
+.game-image{
+	background:url("images/map.png");
+    background-repeat: no-repeat;
+	width:1049px;
+	height:694px;
+	overflow:auto;
+	position: relative;
+
+}
+
+.forest-hp, .knight-hp, .barbarian-hp {
+   color: black;
+
+   /*
+   font-weight: bold;
+   -webkit-text-fill-color: #e8d9b5; 
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+
+   */
+
+
+   font-family:Arial;
+}
+
+
+* {
+  outline: none; 
+}
+
+.forest1{
+	position:absolute;
+	top:142px;
+	left:82px;
+}
+
+.forest2{
+	position:absolute;
+	top:62px;
+	left:422px;
+}
+
+.forest3{
+	position:absolute;
+	top:352px;
+	left:512px;
+}
+
+.forest4{
+	position:absolute;
+	top:522px;
+	left:392px;
+}
+
+.forest5{
+	position:absolute;
+	top:442px;
+	left:762px;
+}
+
+.forest6{
+	position:absolute;
+	top:242px;
+	left:302px;
+}
+
+.forest-hp{
+	font-size:34px;	
+	font-family:Arial;
+}
+
+.forest-hp1{
+	position:absolute;
+	top:242px;
+	left:97px;
+}
+
+.forest-hp2{
+	position:absolute;
+	top:166px;
+	left:452px;
+}
+
+
+.forest-hp3{
+	position:absolute;
+	top:454px;
+	left:522px;	
+}
+
+.forest-hp4{
+	position:absolute;
+	top:621px;
+	left:422px;	
+}
+
+.forest-hp5{
+	position:absolute;
+	top:544px;
+	left:772px;	
+}
+
+.forest-hp6{
+	position:absolute;
+	top:349px;
+	left:322px;	
+}
+
+
+
+.knight-hp{
+	font-size:34px;
+	position:absolute;
+	top:582px;
+	left:92px;	
+}
+
+.barbarian-hp{
+	font-size:34px;
+	position:absolute;
+	top:242px;
+	left:782px;	
+}
+
+.castle1{
+	position:absolute;
+	top:412px;
+	left:87px;	
+}
+
+.castle2{
+	position:absolute;
+	top:72px;
+	left:82px;	
+	display:none;
+}
+
+.castle3{
+	position:absolute;
+	top:-4px;
+	left:422px;	
+	display:none;
+}
+
+.castle4{
+	position:absolute;
+	top:285px;
+	left:512px;	
+	display:none;
+}
+
+.castle5{
+	position:absolute;
+	top:452px;
+	left:382px;	
+	display:none;
+}
+
+.castle6{
+	position:absolute;
+	top:374px;
+	left:752px;	
+	display:none;
+}
+
+.castle7{
+	position:absolute;
+	top:166px;
+	left:292px;	
+	display:none;
+}
+
+.castle8{
+	position:absolute;
+	top:72px;
+	left:762px;	
+	display:none;
+}
+
+
+.forest, .castle{
+	cursor:pointer;
+}
+
+
+.ring1{
+	position:absolute;
+	top:415px;
+	left:82px;	
+}
+
+.ring2{
+	position:absolute;
+	top:72px;
+	left:77px;	
+	
+}
+.ring3{
+	position:absolute;
+	top:-5px;
+	left:417px;	
+
+}
+.ring4{
+	position:absolute;
+	top:287px;
+	left:507px;	
+	
+}
+.ring5{
+	position:absolute;
+	top:452px;
+	left:377px;	
+
+}
+
+.ring6{
+	position:absolute;
+	top:377px;
+	left:747px;	
+	display:block;
+}
+
+.ring7{
+	position:absolute;
+	top:177px;
+	left:287px;
+	display:block;
+}
+
+
+.ring8{
+	position:absolute;
+	top:69px;
+	left:757px;
+}
+
+.ring{
+	cursor:pointer;
+}
+
+
+
+.knight-timer1{
+	position:absolute;
+	top:472px;
+	left:248px;	
+}
+
+.knight-timer2{
+	position:absolute;
+	top:142px;
+	left:242px;
+}
+
+.knight-timer3{
+	position:absolute;
+	top:62px;
+	left:582px;	
+}
+
+.knight-timer4{
+	position:absolute;
+	top:362px;
+	left:672px;	
+}
+
+.knight-timer5{
+	position:absolute;
+	top:518px;
+	left:552px;
+}
+
+.knight-timer6{
+	position:absolute;
+	top:452px;
+	left:922px;
+}
+
+
+.knight-timer7{
+	position:absolute;
+	top:262px;
+	left:457px;
+}
+
+.knight-timer8{
+	position:absolute;
+	top:162px;
+	left:952px;
+}
+
+.barb-timer1{
+	position:absolute;
+	top:586px;
+	left:197px;
+}
+
+
+.timer-nr{
+	display:none;
+}
+
+.timer-nr li{
+	list-style:none;
+	font-size:26px;
+	font-family:Arial;
+	margin-top:15px;
+}
+
+.timer1-nr{
+	position:absolute;
+	top:442px;
+	left:242px;
+}
+
+
+.timer2-nr{
+	position:absolute;
+	top:114px;
+	left:242px;
+}
+
+.timer3-nr{
+	position:absolute;
+	top:34px;
+	left:582px;
+}
+
+.timer4-nr{
+	position:absolute;
+	top:332px;
+	left:672px;
+}
+
+.timer5-nr{
+	position:absolute;
+	top:490px;
+	left:552px;
+}
+
+.timer6-nr{
+	position:absolute;
+	top:424px;
+	left:922px;
+}
+.timer7-nr{
+	position:absolute;
+	top:232px;
+	left:457px;
+	display:none;
+}
+
+.timer8-nr{
+	position:absolute;
+	top:132px;
+	left:952px;
+}
+
+.barb-timer1-nr{
+	position:absolute;
+	top:572px;
+	left:222px;
+}
+
+
+.barbarian{
+	display:none;
+	cursor:pointer;
+}
+
+
+.barbarian1{
+	position:absolute;
+	top:452px;
+	left:27px;
+	
+}
+
+
+.barbarian2{
+	position:absolute;
+	top:107px;
+	left:22px;	
+}
+
+.barbarian3{
+	position:absolute;
+	top:32px;
+	left:362px;	
+}
+
+
+.barbarian4{
+	position:absolute;
+	top:317px;
+	left:502px;	
+}
+
+.barbarian5{
+	position:absolute;
+	top:482px;
+	left:322px;	
+}
+
+.barbarian6{
+	position:absolute;
+	top:412px;
+	left:722px;	
+
+}
+
+
+.barbarian7{
+	position:absolute;
+	top:112px;
+	left:732px;
+	display:block;
+}
+
+.barbarian8{
+	position:absolute;
+	top:212px;
+	left:232px;
+}
+
+
+
+.barb-timer-nr li{
+	list-style:none;
+	font-size:26px;
+	font-family:Arial;
+	margin-top:15px;
+}
+
+.barb-timer1-nr{
+	position:absolute;
+	top:558px;
+	left:205px;
+}
+
+
+.barb-timer2-nr{
+	position:absolute;
+	top:212px;
+	left:210px;
+}
+
+.barb-timer2{
+	position:absolute;
+	top:242px;
+	left:202px;
+}
+
+.barb-timer3{
+	position:absolute;
+	top:152px;
+	left:572px;
+}
+
+.barb-timer3-nr{
+	position:absolute;
+	top:122px;
+	left:580px;
+}
+
+.barb-timer4{
+	position:absolute;
+	top:452px;
+	left:642px;
+}
+
+.barb-timer5{
+	position:absolute;
+	top:600px;
+	left:522px;
+}
+
+
+.barb-timer6{
+	position:absolute;
+	top:542px;
+	left:892px;
+}
+
+.barb-timer7{
+	position:absolute;
+	top:352px;
+	left:427px;
+}
+
+.barb-timer8{
+	position:absolute;
+	top:252px;
+	left:892px;
+}
+
+
+.barb-timer4-nr{
+	position:absolute;
+	top:422px;
+	left:650px;
+}
+
+.barb-timer5-nr{
+	position:absolute;
+	top:570px;
+	left:529px;
+}
+
+.barb-timer6-nr{
+	position:absolute;
+	top:512px;
+	left:902px;
+}
+
+
+.barb-timer7-nr{
+	position:absolute;
+	top:322px;
+	left:434px;
+}
+
+
+.barb-timer8-nr{
+	position:absolute;
+	top:222px;
+	left:902px;
+}
+
+
+.ring, .timer{
+	display:none;
+}
+
+.barb-timer-nr, .timer2{
+	display:none;
+}
+
+.flag{
+	position:absolute;
+	top:20px;
+	left:20px;
+}
+
+.flag{
+	display:none;
+}
+
+.flag-stats{
+	font-family:Arial;
+	position:absolute;
+	left:50px;
+	top:5px;
+	color:#ead6a5;
+}
+
+.flag-timer{
+	font-size:25px;
+}
+
+.flag-bonus{
+	font-size:35px;
+}
+
+ul{
+	list-style:none;
+}
+
+
+.victory{
+	position: absolute;
+	left:322px;
+	top:252px;
+	display:none;
+
+}
+
+.eye{
+	position: absolute;
+	left:692px;
+	top:12px;
+}
+
+.defeat{
+	position: absolute;
+	left:342px;
+	top:232px;
+	display:none;
+}
+
+.skull{
+	position: absolute;
+	left:942px;
+	top:12px;
+}
+
+.level{
+	font-size:40px;
+	font-family: Arial;
+	color:white;
+	position: absolute;
+	left:989px;
+	top:18px;
+}
+
+
+
+.light-red{
+	width:100%;
+	height:40px;
+	background:#ca0000;
+	
+}
+
+.dark-red{
+	width:100%;
+	height:40px;
+	background:#9e1515;
+
+}
+
+.victory-btn, .defeat-btn{
+	position:absolute;
+	top:382px;
+	left:416px;
+	border:4px solid black;
+	width:200px;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	cursor:pointer;
+	display:none;
+}
+
+.victory-btn p, .defeat-btn p{
+	position:absolute;	
+	width:200px;
+	font-size:36px;
+	font-family:Arial;
+	color:white;
+	margin: 0px;
+}
+
+.next-lvl{
+	display:none;
+	width:200px;
+	height:80px;
+	line-height: 80px;
+	background:#847662;
+	border:4px solid black;
+	margin: 0 auto;
+	margin-top:220px;
+	font-size:40px;
+	text-align:center;
+	font-family: Arial;
+}
+
+.lvl-nr{
+	font-weight: bold;
+	font-size:46px;
+
+	color:#650000;
+}
+
+
+
+/*
+
+.timer, .timer-nr {
+	display:block;
+}
+
+.castle, .ring{
+	display:block;
+}
+
+.barbarian{
+	display:block;
+}
+
+.forest{
+	display:block;
+}
+
+.timer{
+	display:block;
+}
+
+.timer-nr{
+	display:block;
+}
+
+.barbarian{
+	display:block;
+}
+
+.barbarian{
+	display:block;
+}
+
+
+
+*/
+

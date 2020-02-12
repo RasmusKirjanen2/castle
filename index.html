@@ -1,0 +1,2309 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>this is the title</title>
+
+<link rel="stylesheet" href="style.css" />
+
+
+</head>
+
+
+
+<body>
+
+
+<div id="wrapper">
+	<div class="game-image">
+
+		<img src="images/flag.png" class="flag" />
+
+		<ul class="flag-stats">
+			<li class="flag-timer"></li>
+			<li class="flag-bonus"></li>
+		</ul>
+
+		<img src="images/skull2.png" class="skull" />
+		<div class="level"></div>
+	
+		<img src="images/eye1.png" class="eye1 eye" />
+	
+		<img src="images/barbarian.png" class="barbarian1 barbarian" />
+		<img src="images/barbarian.png" class="barbarian2 barbarian" />
+		<img src="images/barbarian.png" class="barbarian3 barbarian" />
+		<img src="images/barbarian.png" class="barbarian4 barbarian" />
+		<img src="images/barbarian.png" class="barbarian5 barbarian" />
+		<img src="images/barbarian.png" class="barbarian6 barbarian" />
+		<img src="images/barbarian.png" class="barbarian7 barbarian" />
+		<img src="images/barbarian.png" class="barbarian8 barbarian" />
+		
+		
+		<img src="images/castle.png" class="castle1 castle" />
+		<img src="images/castle.png" class="castle2 castle" />
+		<img src="images/castle.png" class="castle3 castle" />
+		<img src="images/castle.png" class="castle4 castle" />
+		<img src="images/castle.png" class="castle5 castle" />
+		<img src="images/castle.png" class="castle6 castle" />
+		<img src="images/castle2.png" class="castle7 castle" />
+		<img src="images/castle.png" class="castle8 castle" />
+		
+		
+		<img src="images/forest.png" class="forest1 forest" />
+		<img src="images/forest.png" class="forest2 forest" />
+		<img src="images/forest.png" class="forest3 forest" />
+		<img src="images/forest.png" class="forest4 forest" />
+		<img src="images/forest.png" class="forest5 forest" />
+		<img src="images/forest2.png" class="forest6 forest" />
+
+		
+		<img src="images/timer.png" class="knight-timer1 timer"/>
+		<img src="images/timer.png" class="knight-timer2 timer"/>
+		<img src="images/timer.png" class="knight-timer3 timer"/>
+		<img src="images/timer.png" class="knight-timer4 timer"/>
+		<img src="images/timer.png" class="knight-timer5 timer"/>
+		<img src="images/timer.png" class="knight-timer6 timer"/>
+		<img src="images/timer.png" class="knight-timer7 timer"/>
+		<img src="images/timer.png" class="knight-timer8 timer"/>
+		
+
+		<img src="images/timer2.png" class="barb-timer1 timer2"/>
+		<img src="images/timer2.png" class="barb-timer2 timer2"/>
+		<img src="images/timer2.png" class="barb-timer3 timer2"/>
+		<img src="images/timer2.png" class="barb-timer4 timer2"/>
+		<img src="images/timer2.png" class="barb-timer5 timer2"/>
+		<img src="images/timer2.png" class="barb-timer6 timer2"/>
+		<img src="images/timer2.png" class="barb-timer7 timer2"/>
+		<img src="images/timer2.png" class="barb-timer8 timer2"/>
+		
+		
+		<img src="images/ring.png" class="ring1 ring" />
+		<img src="images/ring.png" class="ring2 ring" />
+		<img src="images/ring.png" class="ring3 ring" />
+		<img src="images/ring.png" class="ring4 ring" />
+		<img src="images/ring.png" class="ring5 ring" />
+		<img src="images/ring.png" class="ring6 ring" />
+		<img src="images/ring.png" class="ring7 ring" />
+		<img src="images/ring.png" class="ring8 ring" />
+	
+		
+		<ul class="timer1-nr timer-nr">
+			<li>11</li><li>11</li>
+		</ul>
+		<ul class="timer2-nr timer-nr">
+			<li>22</li><li>22</li>
+		</ul>
+		<ul class="timer3-nr timer-nr">
+			<li>33</li><li>33</li>
+		</ul>
+		<ul class="timer4-nr timer-nr">
+			<li>44</li><li>44</li>
+		</ul>
+		<ul class="timer5-nr timer-nr">
+			<li>55</li><li>55</li>
+		</ul>
+		<ul class="timer6-nr timer-nr">
+			<li>66</li><li>66</li>
+		</ul>
+		<ul class="timer7-nr timer-nr">
+			<li>77</li><li>77</li>
+		</ul>
+		<ul class="timer8-nr timer-nr">
+			<li>88</li><li>88</li>
+		</ul>
+		
+		
+		<!-- BARBARIAN -->
+		<ul class="barb-timer1-nr barb-timer-nr">
+			<li>11</li><li>11</li>
+		</ul>
+		<ul class="barb-timer2-nr barb-timer-nr">
+			<li>22</li><li>22</li>
+		</ul>
+		<ul class="barb-timer3-nr barb-timer-nr">
+			<li>33</li><li>33</li>
+		</ul>
+		<ul class="barb-timer4-nr barb-timer-nr">
+			<li>44</li><li>44</li>
+		</ul>
+		<ul class="barb-timer5-nr barb-timer-nr">
+			<li>55</li><li>55</li>
+		</ul>
+		<ul class="barb-timer6-nr barb-timer-nr">
+			<li>66</li><li>66</li>
+		</ul>
+		<ul class="barb-timer7-nr barb-timer-nr">
+			<li>77</li><li>77</li>
+		</ul>
+		<ul class="barb-timer8-nr barb-timer-nr">
+			<li>88</li><li>88</li>
+		</ul>
+		
+		
+		<div class="forest-hp forest-hp1"></div>
+		<div class="forest-hp forest-hp2"></div>
+		<div class="forest-hp forest-hp3"></div>
+		<div class="forest-hp forest-hp4"></div>
+		<div class="forest-hp forest-hp5"></div>
+		<div class="forest-hp forest-hp6"></div>
+		
+		<div class="knight-hp"></div>
+		<div class="barbarian-hp"></div>
+
+	
+		<img src="images/victory.png" class="victory" />
+
+		<img src="images/defeat.png" class="defeat" />
+
+		<div class="victory-btn">
+		    <p>OK</p>
+			<div class="light-red"></div>
+			<div class="dark-red"></div>
+		</div>
+
+		<div class="victory-btn">
+		    <p>OK</p>
+			<div class="light-red"></div>
+			<div class="dark-red"></div>
+		</div>
+
+		<div class="defeat-btn">
+		    <p>CONTINUE</p>
+			<div class="light-red"></div>
+			<div class="dark-red"></div>
+		</div>
+	
+		<div class="next-lvl">
+			<span class="lvl-name"></span>
+			<span class="lvl-nr"></span>
+		</div>	
+	
+	</div>
+</div>
+
+
+<script src="jquery-3.2.0.min.js"></script>
+
+<script>
+
+
+$(document).ready(function() {     
+
+
+
+$('img').on('dragstart', function(event) { event.preventDefault(); }); // so u can't drag image
+
+
+
+/*
+
+BARBARIAN 3 STRATEGIES
+
+1. barb attacks forest with lowest hp first
+2. after random amount of time barb starts attacking knight or forest (depending on who has the lowest amount of hp)
+3. after 70 seconds barb attacks even if it doesn't have more hp then knight or forest
+
+*/
+
+
+
+/* STATS ------------------------------------------------------------------- */
+
+var level = 1;
+
+/* KNIGHT HITPOINTS */
+var knights = [50, 0, 0, 0, 0, 0, 0, 0];
+
+/* BARB HITPOINTS */
+var barbarians = [0, 0, 0, 0, 0, 0, 50, 0];
+
+/* BARB RESTORE SPEED */
+var difficulty = 500;
+var intervalHandle4 = setInterval(barbTimer2,difficulty); // 500 default  
+
+/* KNIGHT RESTORE SPEED */
+var intervalHandle = setInterval(timer,500); // knight  timer
+
+/* TIME WHEN BARB STARTS ATTACKING KNIGHT ALSO */
+var frenzyTimer;
+frenzyTimer = Math.floor((Math.random() * 30) + 40);
+
+/* FRENZY ATTACK */
+var frenzyAttack = 70; // when gametime is higher then frenzyattack, then always attack someone
+
+/* CHANGES WILL HAPPEN BASED ON GAMETIME */
+var gameTime = 0;
+
+/* SUPER CASTLE TIMER */
+var flagBonusTime = 30;   // starting time
+var flagBonusTimeAdd = 30; // next lvl starting time
+
+/* SUPER FOREST */
+var superForest = Math.floor((Math.random() * 20) + 25);
+
+
+
+$('.knight-hp').html(knights[0]);
+$('.barbarian-hp').html(barbarians[6]);
+
+
+
+var knightSelect = 0;
+
+var lockOn = true;
+
+var timer0 = true;
+var timer1 = false;
+var timer2 = false;
+var timer3 = false;
+var timer4 = false;
+var timer5 = false;
+var timer6 = false;
+var timer7 = false;
+
+var barbTimer = [false, false, false, false, false, false, true, false];
+
+var castleIndex = 0;
+var forestIndex = 0;
+var barbarianIndex = 0;
+
+var arrivalHolds = [0,0,0,0,0,0];
+var arrivalHolds2 = [0,0,0,0,0,0,0,0]; // attacking barbarian time
+
+var damage = [0,0,0,0,0,0];
+var damage2 = [0,0,0,0,0,0,0,0]; // damage to barbarian
+
+
+var arrivalLock1 = true;
+var arrivalLock2 = true;
+var arrivalLock3 = true;
+var arrivalLock4 = true;
+var arrivalLock5 = true;
+var arrivalLock6 = true;
+var arrivalLock7 = true;
+
+
+
+var flagBonus = 2;
+var flagBonusNr = 250; // how was time moves
+
+var barbarianArrivalLock = [true,true,true,true,true,true,true,true];
+
+
+var damageLock = [false,false,false,false,false,false,false,false];
+
+var battleCheck = ['knight','forest','forest','forest','forest','forest','forest','barb'];
+
+var barbInArray = false; // checks if there is barbarian in array, if there isn't - victory
+
+
+var hpComparing = [];
+var smallestHp = 1000;
+var knightsHpComparing = [];
+
+var intervalHandle2 = setInterval(arrivalTimer,1000);
+var intervalHandle3; // super bonus
+
+var lvlCount = 0;
+
+var barbSpeedUp = 500;
+var hardness = 0;
+var barbExtraHp = 0;
+
+var arrivalTimes = [
+
+		{
+			name:'castle1',
+			arrival:[1,4,7,5,4,7,4,8] // 	arrival:[1,5,10,6,5,10,5,13]
+		},
+		{
+			name:'castle2',
+			arrival:[4,1,4,5,8,8,4,8] // arrival:[5,1,5,7,10,12,5,10]
+		},
+		{
+			name:'castle3',
+			arrival:[5,4,1,6,4,7,5,4] // arrival:[6,5,1,7,5,9,6,5]
+		},
+		{
+			name:'castle4',
+			arrival:[4,5,4,4,4,4,4,4] // arrival:[5,6,5,5,5,5,5,5]
+		},
+		{
+			name:'castle5',
+			arrival:[4,7,7,4,1,4,6,6] // arrival:[5,10,10,4,1,5,7,7]
+		},
+		{
+			name:'castle6',
+			arrival:[7,8,6,4,5,1,7,5] // arrival:[10,11,9,5,7,1,9,6]
+		},
+		{
+			name:'castle7',
+			arrival:[4,3,3,3,6,8,1,7] // arrival:[5,4,4,4,7,10,1,9]
+		},
+			{
+			name:'castle8', // barbarian replacement
+			arrival:[8,7,4,4,5,4,5,1] // arrival:[13,10,5,5,8,5,7,1]
+		}
+];
+
+var forestHp = [
+	{
+		name:"forest1",
+		hitpoints:55
+	},
+	{
+		name:"forest2",
+		hitpoints:55
+	},
+	{
+		name:"forest3",
+		hitpoints:55
+	},
+	{
+		name:"forest4",
+		hitpoints:55
+	},
+	{
+		name:"forest5",
+		hitpoints:55
+	},
+	{
+		name:"forest6",
+		hitpoints:55
+	}
+];
+
+
+
+$('.level').html(level);
+
+for(var i=0; i<forestHp.length; i++){
+	 var x = Math.floor((Math.random() * 45) + 25);
+	 forestHp[i].hitpoints=x;
+	 $( '.forest-hp' ).eq( i ).html(forestHp[i].hitpoints);
+	 	
+}
+
+
+forestHp[5].hitpoints=superForest; // super forest
+ $('.forest-hp6').html(forestHp[5].hitpoints);
+ 
+ 
+
+ // intervalHandle = setInterval(timer,500); // this is how you change timer speed
+
+
+
+
+function timer(){
+	
+
+	if(barbTimer[6]==true){
+		
+	}else{
+		knights[7]+=1;
+		$('.barbarian-hp').html(knights[7]);
+	}
+	
+
+	if(timer0==true){
+		knights[0]+=1;
+		$('.knight-hp').html(knights[0]);
+	}
+	
+	if(timer1==true){
+		knights[1]+=1;
+		$('.forest-hp1').html(knights[1]);
+	}
+	
+	if(timer2==true){
+		knights[2]+=1;
+		$('.forest-hp2').html(knights[2]);
+	}
+	
+	if(timer3==true){
+		knights[3]+=1;
+		$('.forest-hp3').html(knights[3]);
+	}
+	if(timer4==true){
+		knights[4]+=1;
+		$('.forest-hp4').html(knights[4]);
+	}
+	if(timer5==true){
+		knights[5]+=1;
+		$('.forest-hp5').html(knights[5]);
+	}
+	
+
+}
+
+function superTime(){
+	if(timer6==true){
+		knights[6]+=1;
+		$('.forest-hp6').html(knights[6]);
+				//clearTimeout(intervalHandle3);		
+	}
+}
+
+
+
+
+function arrivalTimer(timerStop){
+
+	if(timerStop!=true){
+		
+		if(timer6==true){
+			if(flagBonus<9){ // max lvl 7 bonus
+					flagBonusTime-=1;
+					$('.flag-timer').html(flagBonusTime);
+
+				if(flagBonusTime<=0){
+
+					clearTimeout(intervalHandle3);
+					flagBonusTime=flagBonusTimeAdd;
+					flagBonus+=1;
+
+					if(flagBonus==3){                                 // 250 default time
+						intervalHandle3 = setInterval(superTime,180); 
+						flagBonusNr = 200;
+					}else if(flagBonus==4){
+						intervalHandle3 = setInterval(superTime,110);
+						flagBonusNr = 150;
+					}else if(flagBonus==5){
+						intervalHandle3 = setInterval(superTime,70); 
+						flagBonusNr = 100;
+					}else if(flagBonus==6){
+						intervalHandle3 = setInterval(superTime,45); 
+						flagBonusNr = 50;
+					}else if(flagBonus==7){
+						intervalHandle3 = setInterval(superTime,30); 
+						flagBonusNr = 25;
+					}else if(flagBonus==8){
+						intervalHandle3 = setInterval(superTime,20); 
+						flagBonusNr = 12;
+					}else if(flagBonus==9){
+						intervalHandle3 = setInterval(superTime,12); 
+						flagBonusNr = 6;
+					}
+					
+					
+					$('.flag-timer').html(flagBonusTime);
+					$('.flag-bonus').html(flagBonus + 'x');
+				}
+					//clearTimeout(intervalHandle3);
+			}				
+		}
+	}
+
+
+	if(arrivalLock1==false){
+		if(timerStop!=true){
+			arrivalHolds[0]-=1; // alandab timerit +1 sekund 
+		}
+		
+		if(damageLock[0]==false){
+			$('.timer2-nr li').eq(0).html(damage[forestIndex]);
+		}
+			
+		damageLock[0] = true;
+		
+		$('.timer2-nr li').eq(1).html(arrivalHolds[0]);
+		
+		$('.knight-timer2').css('display','block');
+		$('.timer2-nr').css('display','block');
+		
+		if(arrivalHolds[0]==0){
+
+			$('.knight-timer2').css('display','none');	
+			$('.timer2-nr').css('display','none');	
+
+
+			if(battleCheck[1]=="barb"){  //IF KNIGHT ATTACKING BARB -------------------------
+				arrivalLock1=true;
+				damageLock[0] = false;
+				deadBarb(1);
+			}else{	
+
+				forestHp[0].hitpoints -= damage[0];
+				$('.forest-hp' + (1)).html(forestHp[0].hitpoints);
+				arrivalLock1=true;
+				damageLock[0] = false;
+				deadForest(0);
+			}
+
+			
+
+		}	
+	}
+	if(arrivalLock2==false){
+		if(timerStop!=true){
+			arrivalHolds[1]-=1;
+		}
+		
+		if(damageLock[1]==false){
+			$('.timer3-nr li').eq(0).html(damage[forestIndex]);
+		}
+		damageLock[1] = true;
+		
+		$('.timer3-nr li').eq(1).html(arrivalHolds[1]);
+		
+		$('.knight-timer3').css('display','block');
+		$('.timer3-nr').css('display','block');
+		
+		if(arrivalHolds[1]==0){
+		
+			$('.knight-timer3').css('display','none');	
+			$('.timer3-nr').css('display','none');
+
+			if(battleCheck[2]=="barb"){  //IF KNIGHT ATTACKING BARB -------------------------
+				arrivalLock2=true;
+				damageLock[1] = false;
+				deadBarb(2);
+			}else{
+
+				forestHp[1].hitpoints -= damage[1];
+				$('.forest-hp' + (2)).html(forestHp[1].hitpoints);
+				arrivalLock2=true;
+				damageLock[1] = false;
+				deadForest(1);
+			}
+		}	
+	}
+	
+	if(arrivalLock3==false){
+		if(timerStop!=true){
+			arrivalHolds[2]-=1;
+		}
+		
+		if(damageLock[2]==false){
+			$('.timer4-nr li').eq(0).html(damage[forestIndex]);
+		}
+		damageLock[2] = true;
+		
+		$('.timer4-nr li').eq(1).html(arrivalHolds[2]);
+		
+		$('.knight-timer4').css('display','block');
+		$('.timer4-nr').css('display','block');
+		
+		if(arrivalHolds[2]==0){
+			$('.knight-timer4').css('display','none');	
+			$('.timer4-nr').css('display','none');
+
+			if(battleCheck[3]=="barb"){  //IF KNIGHT ATTACKING BARB -------------------------
+				arrivalLock3=true;
+				damageLock[2] = false;
+				deadBarb(3);
+			}else{
+				forestHp[2].hitpoints -= damage[2];
+				$('.forest-hp' + (3)).html(forestHp[2].hitpoints);
+				arrivalLock3=true;
+				damageLock[2] = false;
+				deadForest(2);
+			}
+		}	
+	}
+	
+	if(arrivalLock4==false){
+		if(timerStop!=true){
+			arrivalHolds[3]-=1;
+		}
+		
+		if(damageLock[3]==false){
+			$('.timer5-nr li').eq(0).html(damage[forestIndex]);
+		}
+		damageLock[3] = true;
+		
+		$('.timer5-nr li').eq(1).html(arrivalHolds[3]);
+		
+		$('.knight-timer5').css('display','block');
+		$('.timer5-nr').css('display','block');
+		
+		if(arrivalHolds[3]==0){
+			$('.knight-timer5').css('display','none');	
+			$('.timer5-nr').css('display','none');
+
+			if(battleCheck[4]=="barb"){  //IF KNIGHT ATTACKING BARB -------------------------
+				arrivalLock4=true;
+				damageLock[3] = false;
+				deadBarb(4);
+			}else{
+				forestHp[3].hitpoints -= damage[3];
+				$('.forest-hp' + (4)).html(forestHp[3].hitpoints);
+				arrivalLock4=true;
+				damageLock[3] = false;
+				deadForest(3);
+			}
+		}	
+	}
+	
+	if(arrivalLock5==false){
+		if(timerStop!=true){
+			arrivalHolds[4]-=1;
+		}
+		
+		if(damageLock[4]==false){
+			$('.timer6-nr li').eq(0).html(damage[forestIndex]);
+		}
+		damageLock[4] = true;
+		
+		$('.timer6-nr li').eq(1).html(arrivalHolds[4]);
+		
+		$('.knight-timer6').css('display','block');
+		$('.timer6-nr').css('display','block');
+		
+		if(arrivalHolds[4]==0){
+			$('.knight-timer6').css('display','none');	
+			$('.timer6-nr').css('display','none');
+
+			if(battleCheck[5]=="barb"){  //IF KNIGHT ATTACKING BARB -------------------------
+				arrivalLock5=true;
+				damageLock[4] = false;
+				deadBarb(5);
+			}else{
+				forestHp[4].hitpoints -= damage[4];
+				$('.forest-hp' + (5)).html(forestHp[4].hitpoints);
+				arrivalLock5=true;
+				damageLock[4] = false;
+				deadForest(4);
+			}
+		}	
+	}
+	
+	if(arrivalLock6==false){
+		if(timerStop!=true){
+			arrivalHolds[5]-=1;
+		}
+		
+		
+		if(damageLock[5]==false){
+			$('.timer7-nr li').eq(0).html(damage[forestIndex]);
+		}
+		damageLock[5] = true;
+		
+		$('.timer7-nr li').eq(1).html(arrivalHolds[5]);
+		
+		$('.knight-timer7').css('display','block');
+		$('.timer7-nr').css('display','block');
+		
+		if(arrivalHolds[5]==0){
+			$('.knight-timer7').css('display','none');	
+			$('.timer7-nr').css('display','none');
+
+			if(battleCheck[6]=="barb"){  //IF KNIGHT ATTACKING BARB -------------------------
+				arrivalLock6=true;
+				damageLock[5] = false;
+				deadBarb(6);
+			}else{
+
+				forestHp[5].hitpoints -= damage[5];
+				$('.forest-hp' + (6)).html(forestHp[5].hitpoints);
+				arrivalLock6=true;
+				damageLock[5] = false;
+				deadForest(5);
+			}
+		}	
+	}
+	
+	
+	if(barbarianArrivalLock[0]==false){
+		if(timerStop!=true){
+			arrivalHolds2[0]-=1;
+		}
+		
+		if(damageLock[0]==false){
+			$('.timer1-nr li').eq(0).html(damage2[barbarianIndex]);
+		}
+		damageLock[0] = true;
+		
+		$('.timer1-nr li').eq(1).html(arrivalHolds2[0]);
+		
+		$('.knight-timer1').css('display','block');
+		$('.timer1-nr').css('display','block');
+		
+		
+		if(arrivalHolds2[0]==0){
+			$('.knight-timer1').css('display','none');
+			$('.timer1-nr').css('display','none');
+				barbarians[0] -= damage2[0];
+				$('.barbarian-hp').html(barbarians[0]);
+				barbarianArrivalLock[0]=true;
+				damageLock[0] = false;
+				deadBarbarian(0);
+		}
+	}
+	
+		if(barbarianArrivalLock[1]==false){
+			if(timerStop!=true){
+				arrivalHolds2[1]-=1;
+			}
+		//console.log(arrivalHolds2);
+		
+		if(damageLock[1]==false){
+			$('.timer2-nr li').eq(0).html(damage2[barbarianIndex]);
+			
+			//console.log('damage2 ' + damage2);
+		}
+		damageLock[1] = true;
+		
+		$('.timer2-nr li').eq(1).html(arrivalHolds2[1]);
+		
+		$('.knight-timer2').css('display','block');
+		$('.timer2-nr').css('display','block');
+		
+		
+		if(arrivalHolds2[1]==0){
+			$('.knight-timer2').css('display','none');
+			$('.timer2-nr').css('display','none');
+				barbarians[1] -= damage2[1];
+				$('.forest-hp1').html(barbarians[1]);
+				barbarianArrivalLock[1]=true;
+				damageLock[1] = false;
+				deadBarbarian(1);
+		}
+	}
+	
+	
+	if(barbarianArrivalLock[2]==false){
+		if(timerStop!=true){
+			arrivalHolds2[2]-=1;
+		}
+		//console.log(arrivalHolds2);
+		
+		if(damageLock[2]==false){
+			$('.timer3-nr li').eq(0).html(damage2[barbarianIndex]);
+		}
+		damageLock[2] = true;
+		
+		$('.timer3-nr li').eq(1).html(arrivalHolds2[2]);
+		
+		$('.knight-timer3').css('display','block');
+		$('.timer3-nr').css('display','block');
+		
+		
+		if(arrivalHolds2[2]==0){
+			$('.knight-timer3').css('display','none');
+			$('.timer3-nr').css('display','none');
+				barbarians[2] -= damage2[2];
+				$('.forest-hp2').html(barbarians[2]);
+				barbarianArrivalLock[2]=true;
+				damageLock[2] = false;
+				deadBarbarian(2);
+		}
+	}
+	
+	
+	if(barbarianArrivalLock[3]==false){
+		if(timerStop!=true){
+			arrivalHolds2[3]-=1;
+		}
+		//console.log(arrivalHolds2);
+		
+		if(damageLock[3]==false){
+			$('.timer4-nr li').eq(0).html(damage2[barbarianIndex]);
+		}
+		damageLock[3] = true;
+		
+		$('.timer4-nr li').eq(1).html(arrivalHolds2[3]);
+		
+		$('.knight-timer4').css('display','block');
+		$('.timer4-nr').css('display','block');
+		
+		
+		if(arrivalHolds2[3]==0){
+			$('.knight-timer4').css('display','none');
+			$('.timer4-nr').css('display','none');
+				barbarians[3] -= damage2[3];
+				$('.forest-hp3').html(barbarians[3]);
+				barbarianArrivalLock[3]=true;
+				damageLock[3] = false;
+				deadBarbarian(3);
+		}
+	}
+	
+		if(barbarianArrivalLock[4]==false){
+			if(timerStop!=true){
+				arrivalHolds2[4]-=1;
+			}
+		//console.log(arrivalHolds2);
+		
+		if(damageLock[4]==false){
+			$('.timer5-nr li').eq(0).html(damage2[barbarianIndex]);
+		}
+		damageLock[4] = true;
+		
+		$('.timer5-nr li').eq(1).html(arrivalHolds2[4]);
+		
+		$('.knight-timer5').css('display','block');
+		$('.timer5-nr').css('display','block');
+		
+		
+		if(arrivalHolds2[4]==0){
+			$('.knight-timer5').css('display','none');
+			$('.timer5-nr').css('display','none');
+				barbarians[4] -= damage2[4];
+				$('.forest-hp4').html(barbarians[4]);
+				barbarianArrivalLock[4]=true;
+				damageLock[4] = false;
+				deadBarbarian(4);
+		}
+	}
+	
+		if(barbarianArrivalLock[5]==false){
+			if(timerStop!=true){
+				arrivalHolds2[5]-=1;
+			}
+		//console.log(arrivalHolds2);
+		
+		if(damageLock[5]==false){
+			$('.timer6-nr li').eq(0).html(damage2[barbarianIndex]);
+		}
+		damageLock[5] = true;
+		
+		$('.timer6-nr li').eq(1).html(arrivalHolds2[5]);
+		
+		$('.knight-timer6').css('display','block');
+		$('.timer6-nr').css('display','block');
+		
+		
+		if(arrivalHolds2[5]==0){
+			$('.knight-timer6').css('display','none');
+			$('.timer6-nr').css('display','none');
+				barbarians[5] -= damage2[5];
+				$('.forest-hp5').html(barbarians[5]);
+				barbarianArrivalLock[5]=true;
+				damageLock[5] = false;
+				deadBarbarian(5);
+		}
+	}
+	
+		// SUPER CASTLE
+		
+		if(barbarianArrivalLock[7]==false){
+			if(timerStop!=true){
+				arrivalHolds2[7]-=1;
+			}
+	
+			if(damageLock[7]==false){
+				$('.timer7-nr li').eq(0).html(damage2[barbarianIndex]);
+			}
+			damageLock[7] = true;
+			
+			$('.timer7-nr li').eq(1).html(arrivalHolds2[7]);
+			$('.knight-timer7').css('display','block');
+			$('.timer7-nr').css('display','block');
+			
+		
+			if(arrivalHolds2[7]==0){
+				$('.knight-timer7').css('display','none');
+				$('.timer7-nr').css('display','none');
+				barbarians[7] -= damage2[7];
+				$('.forest-hp6').html(barbarians[7]);
+				barbarianArrivalLock[7]=true;
+				damageLock[7] = false;
+				deadBarbarian(7);
+			
+			}	
+		}
+	
+	
+	if(barbarianArrivalLock[6]==false){
+		if(timerStop!=true){
+			arrivalHolds2[6]-=1;
+		}
+		
+		if(damageLock[6]==false){
+			$('.timer8-nr li').eq(0).html(damage2[barbarianIndex]);
+		}
+		damageLock[6] = true;
+		
+		$('.timer8-nr li').eq(1).html(arrivalHolds2[6]);
+		
+		$('.knight-timer8').css('display','block');
+		$('.timer8-nr').css('display','block');
+		
+	
+		if(arrivalHolds2[6]==0){
+			$('.knight-timer8').css('display','none');
+			$('.timer8-nr').css('display','none');
+				barbarians[6] -= damage2[6];
+				$('.barbarian-hp').html(barbarians[6]);
+				barbarianArrivalLock[6]=true;
+				damageLock[6] = false;
+				deadBarbarian(6);
+		}	
+	}
+	
+	
+}
+
+
+
+
+/* ------------------ --------------------------*/
+
+function deadBarb(barb){ // IF BARB TAKES OVER BUT IN SECONDS U ATTACK THAT BARB
+	console.log('damage ' + damage);
+	console.log('barb ' + barb);
+	if(barb==6){
+		barbarians[7] -= damage[barb-1];
+	}else{
+		barbarians[barb] -= damage[barb-1];
+	}
+
+	$('.forest-hp' + (barb)).html(barbarians[barb]);
+
+		if(barb==6){
+				if(barbarians[7]<=0){   // red forest
+					var x = Math.abs(barbarians[barb+1]);
+					knights[barb] = x;
+					timer6=true;
+					battleCheck[6]='knight';	
+
+					$('.barbarian8').css('display','none');
+					$('.castle7').css('display','block');
+					$('.forest-hp' + (barb)).html(knights[barb]);
+					
+					intervalHandle3 = setInterval(superTime,flagBonusNr);
+					$('.flag-stats').css('display','block');
+					$('.flag').css('display','block');	
+					$('.flag-bonus').html(flagBonus + 'x');			
+					$('.flag-timer').html(flagBonusTime);			
+				
+					battleCheck[6] = 'knight';
+					console.log('battbecheck ' + battleCheck);
+				}
+		}else{
+			if(barbarians[barb]<=0){
+				var x = Math.abs(barbarians[barb]);
+				knights[barb] = x;
+				$('.castle'+ (barb+1)).css('display','block');
+				$('.barbarian'+ (barb+1)).css('display','none');
+				$('.forest-hp' + (barb)).html(knights[barb]);
+
+				if(barb==1){
+					timer1=true;
+					battleCheck[1]='knight';
+				}
+				if(barb==2){
+					timer2=true;
+					battleCheck[2]='knight';
+				}
+				if(barb==3){
+					timer3=true;
+					battleCheck[3]='knight';
+				}
+				if(barb==4){ // super---------------------------------------------------------------
+						
+					timer4=true;
+					battleCheck[4]='knight';
+					
+				}
+				if(barb==5){
+						
+					timer5=true;
+					battleCheck[5]='knight';
+				}
+			
+				
+				if(barb==7){
+					
+					timer7=true;
+					battleCheck[7]='knight';
+				}
+			}
+
+		}
+}
+
+
+$('.castle').mousedown(function(){
+
+
+	$('.ring').css('display', 'none');
+	
+	lockOn = false;
+	castleIndex = $('.castle').index(this);
+	
+
+	$('.ring' + (castleIndex+1)).css('display', 'block');
+	
+	knightSelect = knights[castleIndex];
+	
+	//console.log('knights ' + knights);
+	
+});
+
+
+
+
+$('.forest').mousedown(function(){
+	if(lockOn==false){
+		$('.ring').css('display', 'none');
+		
+		forestIndex = $('.forest').index(this);
+	
+
+		if(forestIndex==0 && arrivalLock1==false){
+			return;	
+		}
+		
+		if(forestIndex==1 && arrivalLock2==false){
+			return;	
+		}
+		
+		if(forestIndex==2 && arrivalLock3==false){
+			return;	
+		}
+		
+		if(forestIndex==3 && arrivalLock4==false){
+			return;	
+		}
+		
+		if(forestIndex==4 && arrivalLock5==false){
+			return;	
+		}
+		
+		if(forestIndex==5 && arrivalLock6==false){
+			return;	
+		}
+		
+		if(forestIndex==0){
+			arrivalLock1 = false;
+		}
+		else if(forestIndex==1){
+			arrivalLock2 = false;	
+		}
+		else if(forestIndex==2){
+			arrivalLock3 = false;
+		}
+		else if(forestIndex==3){
+			arrivalLock4 = false;
+		}
+		else if(forestIndex==4){
+			arrivalLock5 = false;
+		}
+		else if(forestIndex==5){
+			arrivalLock6 = false;
+		}
+		
+		var x = arrivalTimes[castleIndex].arrival[forestIndex+1];
+		
+		arrivalHolds[forestIndex] = x;
+		
+		
+		//console.log('arrivalholds' + arrivalHolds);
+		knightSelect = Math.round(knightSelect / 2); // send half of your army
+		//console.log('castleindex ' + castleIndex);
+		
+		knights[castleIndex] -= knightSelect;
+		damage[forestIndex] = knightSelect;
+	
+		
+		
+		//console.log('damage' + damage);
+		//console.log('knights' + knights);
+		lockOn = true;
+		arrivalTimer(true);
+
+		
+	
+		$('.knight-hp').html(knights[0]);
+		$('.forest-hp' + castleIndex).html(knights[castleIndex]);
+		
+		if(barbTimer[6]==false){
+			$('.barbarian-hp').html(knights[7]);
+		}
+	}
+	
+});
+
+
+
+function deadForest(forest){
+		if(forestHp[forest].hitpoints<=0){
+				var x = Math.abs(forestHp[forest].hitpoints);
+			
+				knights[forest+1] = x; 
+				//console.log(knights);
+				//forestHp[forest].hitpoints=x;
+				$('.forest-hp' + (forest+1)).html(knights[forest+1]);
+				
+				$('.castle' + (forest+2)).css('display', 'block');
+				//console.log(forest);
+				$('.forest' + (forest+1)).css('display', 'none');
+			
+				if(forest==0){
+					timer1=true;
+					$('.knight-timer2').css('display','none');	
+					arrivalLock1 = true;
+					
+				}
+				if(forest==1){
+					timer2=true;
+					$('.knight-timer3').css('display','none');	
+					arrivalLock2 = true;
+				}
+				if(forest==2){
+					timer3=true;
+					$('.knight-timer4').css('display','none');	
+					arrivalLock3 = true;
+				}
+				if(forest==3){
+					timer4=true;
+					$('.knight-timer5').css('display','none');	
+					arrivalLock4 = true;
+				}
+				if(forest==4){
+					timer5=true;
+					$('.knight-timer6').css('display','none');	
+					arrivalLock5 = true;
+				}
+				if(forest==5){
+					timer6=true;
+					$('.knight-timer7').css('display','none');	
+					arrivalLock6 = true;
+					intervalHandle3 = setInterval(superTime,flagBonusNr);
+					$('.flag').css('display','block');	
+					$('.flag-stats').css('display','block');
+					$('.flag-bonus').html(flagBonus + 'x');			
+					$('.flag-timer').html(flagBonusTime);			
+				}
+				battleCheck[forest+1] = 'knight';
+				//console.log(battleCheck);
+				
+			}
+				//$('.forest-hp' + (forest+1)).html(forestHp[forest].hitpoints);		
+}
+
+
+
+function deadBarbarian(barb){
+	if(barbarians[barb]<=0){
+		//console.log('barbarians ' + barbarians);
+		//alert(barb);
+
+		var x = Math.abs(barbarians[barb]);
+	
+		
+		if(barb==6){ // so barbarian[6] would work properly 
+			barbTimer[6]=false; // timer will stop
+			knights[barb+1] = x; 
+			//console.log('knightss '+ knights);
+			$('.barbarian-hp').html(knights[barb+1]);
+			$('.castle' + (barb+2)).css('display', 'block');
+			//console.log(forest);
+			$('.barbarian' + (barb+1)).css('display', 'none');
+			battleCheck[7] = 'knight';
+			//console.log(battleCheck);	
+		}else if(barb==7){   // SUPER CASTLE
+			
+			knights[barb-1] = x; 
+			//console.log('knights ' + knights);
+			$('.forest-hp6').html(knights[barb-1]);
+			$('.castle' + (barb)).css('display', 'block');
+			$('.barbarian' + (barb+1)).css('display', 'none');
+			timer6=true;
+			$('.flag-stats').css('display','block');
+			$('.flag').css('display','block');
+			$('.flag-timer').html(flagBonusTime);
+			$('.flag-bonus').html(flagBonus + 'x');
+
+			intervalHandle3 = setInterval(superTime,flagBonusNr);
+			battleCheck[6] = 'knight';
+			//console.log(battleCheck);	
+			
+		}else{
+		
+			if(barb==1){
+				timer1=true;
+			}
+			if(barb==2){
+				timer2=true;
+			}
+			if(barb==3){
+				timer3=true;
+			}
+			if(barb==4){
+				timer4=true;
+			}
+			if(barb==5){
+				timer5=true;
+			}
+			if(barb==7){
+				timer7=true;
+					
+			}
+			if(barb==8){
+				timer8=true;
+				
+			}
+			battleCheck[barb] = 'knight';
+		
+			
+			knights[barb] = x; 
+			//console.log('knightss '+ knights);
+			$('.forest-hp'+ barb).html(knights[barb]);
+			$('.castle' + (barb+1)).css('display', 'block');
+				//console.log(forest);
+			$('.barbarian' + (barb+1)).css('display', 'none');
+		}
+
+
+		/*----------VICTORY-------------------------------------------------------*/
+
+		barbInArray = false;
+
+		for(var i=0;i<battleCheck.length;i++){
+			if(battleCheck[i]=='barb'){
+				barbInArray = true;
+			}
+		}
+		console.log('battlecheckkkk ' + battleCheck);
+
+		if(barbInArray==false){
+					$('.victory').css('display','block');	
+					$('.victory-btn').css('display','block');	
+		}
+
+	}
+}
+
+
+
+$('.barbarian').mousedown(function(){
+
+	if(lockOn==false){
+		$('.ring').css('display', 'none');
+		barbarianIndex = $('.barbarian').index(this);
+		//alert(barbarianIndex);
+		if(barbarianIndex==0 && barbarianArrivalLock[0]==false){
+			return;	
+		}
+		
+		if(barbarianIndex==1 && barbarianArrivalLock[1]==false){
+			return;	
+		}
+		
+		if(barbarianIndex==2 && barbarianArrivalLock[2]==false){
+			return;	
+		}
+		
+		if(barbarianIndex==3 && barbarianArrivalLock[3]==false){
+			return;	
+		}
+			
+		if(barbarianIndex==4 && barbarianArrivalLock[4]==false){
+			return;	
+		}
+		
+		if(barbarianIndex==5 && barbarianArrivalLock[5]==false){
+			return;	
+		}
+		
+		if(barbarianIndex==6 && barbarianArrivalLock[6]==false){
+			return;	
+		}
+		
+			
+		if(barbarianIndex==7 && barbarianArrivalLock[7]==false){
+			return;	
+		}
+		
+		
+		if(barbarianIndex==0){
+			barbarianArrivalLock[0]=false;
+		}
+		if(barbarianIndex==1){
+			barbarianArrivalLock[1]=false;
+		}
+		if(barbarianIndex==2){
+			barbarianArrivalLock[2]=false;
+		}
+		if(barbarianIndex==3){
+			barbarianArrivalLock[3]=false;
+		}
+		if(barbarianIndex==4){
+			barbarianArrivalLock[4]=false;
+		}
+		if(barbarianIndex==5){
+			barbarianArrivalLock[5]=false;
+		}
+		if(barbarianIndex==6){
+			barbarianArrivalLock[6]=false;
+		}
+		if(barbarianIndex==7){
+			barbarianArrivalLock[7]=false;
+		}
+		
+		//alert(barbarianIndex);
+		if(barbarianIndex==6){
+			var x = arrivalTimes[castleIndex].arrival[barbarianIndex+1];
+		}else{
+			var x = arrivalTimes[castleIndex].arrival[barbarianIndex];
+		}
+		
+		arrivalHolds2[barbarianIndex] = x;
+		//console.log('arrivalholds2 ' + arrivalHolds2);
+		
+		knightSelect = Math.round(knightSelect / 2); // send half of your army
+		knights[castleIndex] -= knightSelect;
+		damage2[barbarianIndex] = knightSelect;
+		//console.log('damage2 ' + damage2[barbarianIndex]);
+	
+		lockOn = true;
+		arrivalTimer(true);
+
+	}
+});
+
+
+/* ------------------- ARTIFICIAL INTELLIGENCE ------------------------------------------------------*/
+
+var forestHpComparing = []; 
+var smallestHp = 100;
+var smallestHpNr = 0;
+
+
+var barbHpComparing = []; 
+var biggestBarbHp = 0;
+var biggestBarbHpNr = 0;
+
+
+var activeBarbNr;
+var barbSelect;
+var barbDamage = 0;
+var barbArrivalHold = 0;
+
+var barbAttackLock = true;
+var barbAttackLock2 = true; // if barb also starts to attack knights lock
+
+
+var barbDamageLock = false;
+var barbDamageLock2 = false;
+
+
+var knightInArray = true; // if false, u lose
+
+
+var barbArrivalTimes = [
+		{
+			name:'barb1',
+			arrival:[3,4,8,5,4,8,9,4] // arrival:[3,5,11,6,5,11,13,5]
+		},
+		{
+			name:'barb2',
+			arrival:[5,3,5,7,10,12,10,5] // 	arrival:[5,3,5,7,10,12,10,5]
+		},
+		{
+			name:'barb3',
+			arrival:[6,5,3,7,5,9,5,6] // arrival:[6,5,3,7,5,9,5,6]
+		},
+		{
+			name:'barb4',
+			arrival:[5,6,5,5,5,5,5,5] // arrival:[5,6,5,5,5,5,5,5]
+		},
+		{
+			name:'barb5',
+			arrival:[5,10,10,4,3,5,7,7] // arrival:[5,10,10,4,3,5,7,7]
+		},
+		{
+			name:'barb6',
+			arrival:[10,11,9,5,7,3,6,9] // arrival:[10,11,9,5,7,3,6,9]
+		},
+		{
+			name:'barb7',
+			arrival:[5,4,4,4,7,10,9,3] // arrival:[5,4,4,4,7,10,9,3]
+		},
+			{
+			name:'barb8',
+			arrival:[13,10,5,5,8,5,6,7] // arrival:[13,10,5,5,8,5,6,7]
+		}
+];
+
+var npcIntervalHandle = setInterval(npcStart,1000);
+
+
+
+
+function npcStart(){    /*----------------------------------------------------------------------------------*/
+
+	if(gameTime==frenzyTimer){
+		$('.eye').attr('src','images/eye2.png');
+	}
+
+	if(barbAttackLock==false){ // kui barb juba ryndab siis ei lase uuesti rynnata
+		return;
+	}	
+
+	if(barbAttackLock2==false){ // kui barb juba ryndab knighti
+		return;
+	}
+
+	smallestHp = 500;
+	forestHpComparing = []; // resets array
+
+	barbHpComparing = []; // reset array
+	biggestBarbHpNr = 0;
+	biggestBarbHp = 0;
+
+	/* FRENZY */
+	if(gameTime>=frenzyTimer){  // time when barb also starts attacking you (3 if u want barb to attack u after the first forest)
+		barbAttack();
+		return;
+	}	
+		
+
+
+	
+	for(var i=1;i<7;i++){	// adding forests hitpoints to comparing array
+			if(battleCheck[i]=='forest'){
+				var x = forestHp[i-1].hitpoints;
+				forestHpComparing.push(x);
+			
+			}else if(battleCheck[i]=='barb' || battleCheck[i]=='knight'){
+				forestHpComparing[i-1] = 9000;
+			}
+	}
+	
+	//console.log(forestHpComparing);
+
+	for(var i=0;i<forestHpComparing.length;i++){ // looks for the smallest forest hp
+		if(smallestHp>=forestHpComparing[i]){ // vist parandasin
+			smallestHp=forestHpComparing[i];
+			smallestHpNr=i;
+		}
+	}
+
+
+	//console.log(forestHpComparing);
+
+	for(var i=0; i<battleCheck.length; i++){   // adding barb hitpoints to barb comparing array
+		if(battleCheck[i]=='barb' && i==7){
+			barbHpComparing.push(barbarians[i-1]);
+		}else if(battleCheck[i]=='barb'){
+				barbHpComparing.push(barbarians[i]);
+		}else{
+			barbHpComparing.push(0); // juhul kui barb ei ole siis lisa 0
+		}
+	}
+	//console.log('barbhpcomparing ' + barbHpComparing);
+	
+
+	for(var i=0;i<battleCheck.length;i++){ // looks for the smallest barb hp
+		if(biggestBarbHp<=barbHpComparing[i] && i==7){ 
+			biggestBarbHp=barbHpComparing[i];
+			biggestBarbHpNr=i-1;
+		}else if(biggestBarbHp<=barbHpComparing[i]){
+			biggestBarbHp=barbHpComparing[i];
+			biggestBarbHpNr=i;
+		}
+
+
+	}
+
+	//alert(biggestBarbHpNr);
+
+	//alert(smallestHpNr);
+
+	forestHpComparing = []; // resets array
+
+	for(var i=0;i<battleCheck.length;i++){
+		if(battleCheck[i]=='barb'){
+
+			activeBarbNr=biggestBarbHpNr;       // looks for a barbarian
+		
+
+			if(barbarians[activeBarbNr]>smallestHp){
+				//alert(smallestHp);
+	 			
+				barbSelect = Math.round(barbarians[activeBarbNr] / 2);
+				//alert(activeBarbNr);
+				barbDamage = barbSelect;
+
+					
+				var x = barbArrivalTimes[activeBarbNr+1].arrival[smallestHpNr+1];
+				barbArrivalHold = x;
+				//console.log('barbArrivalHold ' + barbArrivalHold);
+
+
+
+				barbAttackLock=false;
+			}
+		}
+	}
+
+	if(smallestHpNr==5 && battleCheck[6]=='barb'){ // kui barb ryndab iseennast siis lock
+			barbAttackLock=true;		
+	}
+
+}
+
+
+npcStart();
+
+var barbArrivalIntervalHandle = setInterval(barbArrivalTimer,1000);
+
+function barbArrivalTimer(){
+	gameTime+=1;
+	if(gameTime>=1){
+
+		barbArrivalTimer2(); // if barb attacks knight
+
+		//console.log('barbAttackLock '+barbAttackLock[6]);
+
+		/*--------------------------------------*/
+
+		if(barbAttackLock==false){  // kui false siis tegutse
+			if(barbDamageLock==false){
+				barbarians[activeBarbNr]-=barbDamage;
+			}
+
+			barbDamageLock=true;
+
+		
+			barbArrivalHold-=1;
+			//console.log('barbArrivalHold ' + barbArrivalHold);
+
+			barbDisplay();
+			
+				if(barbArrivalHold==0){
+
+					$('.barb-timer'+ (smallestHpNr+2)).css('display','none');
+					$('.barb-timer'+ (smallestHpNr+2) + '-nr').css('display','none');
+
+					if(battleCheck[smallestHpNr+1]=="forest"){  // IF U ARE ATTACKING FOREST
+					
+						forestHp[smallestHpNr].hitpoints -= barbDamage;
+
+
+						$('.forest-hp'+(smallestHpNr+1)).html(forestHp[smallestHpNr].hitpoints);
+
+						barbAttackLock=true;
+						barbDamageLock=false;
+
+						deadForest2(smallestHpNr); // barbarian killing a forest
+
+					}else if(battleCheck[smallestHpNr+1]=="knight"){  //IF BARB ATTACKING KNIGHT
+					
+						knights[smallestHpNr+1]-=barbDamage;
+						$('.forest-hp'+ (smallestHpNr+1)).html(knights[smallestHpNr+1]);
+						barbAttackLock=true;
+						barbDamageLock=false;
+
+						deadCastle(smallestHpNr);
+
+					}	
+				}
+		}
+
+		/*------------------------------------------ */
+
+	}
+	/*  barbarian hitpoints add  */
+}
+
+
+
+
+function barbDisplay(){
+			$('.barb-timer'+ (smallestHpNr+2)).css('display','block');
+			$('.barb-timer'+ (smallestHpNr+2) + '-nr').css('display','block');
+			$('.barb-timer'+ (smallestHpNr+2) + '-nr li').eq(0).html(barbDamage);
+			$('.barb-timer'+ (smallestHpNr+2) + '-nr li').eq(1).html(barbArrivalHold);
+}
+
+function deadCastle(castle){
+	//alert(knights[castle+1]);
+	if(	knights[castle+1]<=0){
+		
+			lockOn=true;
+			$('.ring').css('display','none');
+
+			if(castle!=5 || castle!=6){
+				var x = Math.abs(knights[castle+1]);
+					
+				barbarians[castle+1] = x;
+				
+				//alert(Math.abs(knights[castle+1]));
+			}
+
+
+		if(castle==5){    // super castle getting destroyed by barb
+			var x = Math.abs(knights[castle+1]);
+			barbarians[7] = x;
+			timer6 = false;
+			clearTimeout(intervalHandle3);
+
+			$('.barbarian'+ (8)).css('display','block');
+			$('.castle'+ (castle+2)).css('display','none');
+			$('.forest-hp'+ (castle+1)).html(barbarians[7]);
+
+			//$('.ring'+ (7)).css('display','none');
+
+			battleCheck[6]='barb';
+
+		}else if(castle==6){ // last barb castle
+			var x = Math.abs(knights[castle+1]);
+			barbarians[6] = x;
+			timer7 = false;
+			$('.barbarian'+ (7)).css('display','block');
+			$('.castle'+ (8)).css('display','none');
+
+			barbTimer[6]=true; // NEED THIS FOR STOPPING KNIGHT HITPOINTS
+		
+			battleCheck[7]='barb';
+
+		}else{
+			$('.forest-hp'+ (castle+1)).html(barbarians[castle+1]);
+			$('.barbarian'+ (castle+2)).css('display','block');
+			$('.castle'+ (castle+2)).css('display','none');
+
+			//$('.ring'+ (castle+2)).css('display','none');
+		}
+		if(castle==-1){
+			timer0 = false;
+			battleCheck[0]='barb';
+		}
+
+		if(castle==0){
+			timer1 = false;
+			battleCheck[1]='barb';
+		}
+		if(castle==1){
+			timer2 = false;
+			battleCheck[2]='barb';
+		}
+		if(castle==2){
+			timer3 = false;
+			battleCheck[3]='barb';
+		}
+		if(castle==3){
+			timer4 = false;
+			battleCheck[4]='barb';
+		}
+		if(castle==4){
+			timer5 = false;
+			battleCheck[5]='barb';
+		}
+
+		knightInArray = false;
+
+		for(var i=0;i<battleCheck.length;i++){
+			if(battleCheck[i]=='knight'){
+				knightInArray = true;
+			}
+		}
+		console.log('battlecheckkkk ' + battleCheck);
+
+		if(knightInArray==false){
+					$('.defeat').css('display','block');	
+					$('.defeat-btn').css('display','block');	
+		}
+
+
+
+	}
+}
+
+
+function deadForest2(forest2){
+	
+	if(forestHp[forest2].hitpoints<=0){
+	
+		var x = Math.abs(forestHp[forest2].hitpoints);
+	
+
+		if(forest2==5){
+			barbarians[forest2 + 2] = x; // barbarian battle leftover hitpoints
+		}else{
+			barbarians[forest2 + 1] = x; // barbarian battle leftover hitpoints
+		}
+
+		if(forest2==5){
+			battleCheck[forest2 + 1]='barb'; // juhul kui barb h2vitab punase metsa
+			$('.forest-hp'+ (forest2+1)).html(barbarians[forest2 + 2]);
+		}else{
+			battleCheck[forest2 + 1]='barb';
+			$('.forest-hp'+ (forest2+1)).html(barbarians[forest2 + 1]);
+		}
+
+		
+
+		//console.log('battleCheck '+ battleCheck);
+		
+		if(forest2==5){
+			$('.barbarian'+ (8)).css('display','block');
+			$('.forest'+ (6)).css('display','none');
+		}else{
+			$('.forest'+ (forest2+1)).css('display','none');    // siin kaob metsa pilt 2ra
+			$('.barbarian'+ (forest2+2)).css('display','block');
+		}
+	}
+}
+
+
+
+
+function barbTimer2(){
+	if(battleCheck[0]=='barb'){
+		barbarians[0]+=1;
+		$('.knight-hp').html(barbarians[0]);
+	}
+	if(battleCheck[1]=='barb'){
+		barbarians[1]+=1;
+		$('.forest-hp1').html(barbarians[1]);
+	}
+	if(battleCheck[2]=='barb'){
+		barbarians[2]+=1;
+		$('.forest-hp2').html(barbarians[2]);
+	}
+	if(battleCheck[3]=='barb'){
+		barbarians[3]+=1;
+		$('.forest-hp3').html(barbarians[3]);
+	}
+	if(battleCheck[4]=='barb'){
+		barbarians[4]+=1;
+		$('.forest-hp4').html(barbarians[4]);
+	}
+	if(battleCheck[5]=='barb'){
+		barbarians[5]+=1;
+		$('.forest-hp5').html(barbarians[5]);
+	}
+	if(battleCheck[6]=='barb'){ // super castle
+		barbarians[7]+=1;
+		$('.forest-hp6').html(barbarians[7]);
+	}
+	if(battleCheck[7]=='barb'){
+		barbarians[6]+=1;
+		$('.barbarian-hp').html(barbarians[6]);
+	}
+
+}
+
+
+
+
+
+
+function barbAttack(){
+
+	if(knightInArray==false){ // if there is no knight, there is no reason to attack
+		return;
+	}
+
+	hpComparing = [];
+	forestHpComparing = [];
+	knightsHpComparing = [];
+	barbHpComparing = [];
+	smallestHp = 1000;
+
+
+
+	for(var i=0;i<8;i++){	// adding all hitpointses to the hpcomparing array
+		
+			if(battleCheck[i]=='forest'){
+				var x = forestHp[i-1].hitpoints;
+				hpComparing.push(x);
+			}else if(battleCheck[i]=='knight'){
+				hpComparing.push(knights[i]);
+			}else if(battleCheck[i]=='barb'){
+				hpComparing.push(9000);
+			}
+	}
+	console.log('hpcomparing ' + hpComparing);
+
+
+	for(var i=0;i<8;i++){ // looks for the smallest hp
+		if(hpComparing[i]<=smallestHp){ 
+			smallestHp=hpComparing[i];
+			smallestHpNr=i;
+		}
+	}
+
+	console.log('smallesthp ' + smallestHp);
+	console.log('smallesthpNr ' + smallestHpNr);
+
+	if(battleCheck[smallestHpNr]=='forest'){
+			smallestHp = 9000;
+			smallesthpNr = 0;
+
+			for(var i=0;i<8;i++){	// adding forests hitpoints to comparing array
+				if(battleCheck[i]=='forest'){
+					var x = forestHp[i-1].hitpoints;
+					forestHpComparing.push(x);
+				}else{
+					forestHpComparing.push(1000);
+				}
+			}
+
+	console.log('forestHpComparing ' + forestHpComparing);		
+
+		for(var i=0;i<8;i++){ // looks for the smallest forest hp
+				if(smallestHp>=forestHpComparing[i]){ 
+					smallestHp=forestHpComparing[i];
+					smallestHpNr=i;
+				}
+		}
+
+	console.log('smallestforesthp ' + smallestHp);
+	console.log('smallestforestHpNr ' + smallestHpNr);
+
+	}else if(battleCheck[smallestHpNr]=='knight'){
+			smallestHp = 9000;
+			smallesthpNr = 0;
+
+			for(var i=0;i<8;i++){	// adding knight hitpoints to comparing array
+				if(battleCheck[i]=='knight'){
+					var x = knights[i];
+					knightsHpComparing.push(x);
+				}else{
+					knightsHpComparing.push(1000);
+				}
+			}
+			console.log('knightsHpComparing ' + knightsHpComparing);
+
+			for(var i=0;i<8;i++){ // looks for the smallest knight hp
+				if(smallestHp>=knightsHpComparing[i]){ // vist parandasin
+					smallestHp=knightsHpComparing[i];
+					smallestHpNr=i;
+				}
+			}
+			console.log('smallestknighthp ' + smallestHp);		
+			console.log('smallestknighthpNr ' + smallestHpNr);		
+	}
+
+
+	for(var i=0; i<battleCheck.length; i++){   // adding barb hitpoints to barb hpcomparing array
+		if(battleCheck[i]=='barb' && i==7){
+			barbHpComparing.push(barbarians[i-1]);
+		}else if(battleCheck[i]=='barb'){
+				barbHpComparing.push(barbarians[i]);
+		}else{
+			barbHpComparing.push(0); // juhul kui barb ei ole siis lisa 0
+		}
+	}
+	console.log('barbhpcomparing ' + barbHpComparing);
+	
+
+	for(var i=0;i<battleCheck.length;i++){ // looks for the biggest barb hp
+		if(biggestBarbHp<=barbHpComparing[i] && i==7){ 
+			biggestBarbHp=barbHpComparing[i];
+			biggestBarbHpNr=i-1;
+		}else if(biggestBarbHp<=barbHpComparing[i]){
+			biggestBarbHp=barbHpComparing[i];
+			biggestBarbHpNr=i;
+		}
+	}
+
+	//console.log('biggestBarbHp ' + biggestBarbHp);
+	//console.log('biggestBarbHpNr ' + biggestBarbHpNr);
+
+
+		for(var i=0;i<battleCheck.length;i++){
+			if(battleCheck[i]=='barb'){
+
+				activeBarbNr=biggestBarbHpNr;       // looks for a barbarian
+				//console.log('activeBarbNr ' + activeBarbNr);
+
+				if(barbarians[activeBarbNr]>smallestHp || gameTime>=frenzyAttack){
+				
+		 			
+					barbSelect = Math.round(barbarians[activeBarbNr] / 2);
+					//alert(activeBarbNr);
+					barbDamage = barbSelect;
+
+					//alert(smallestHpNr);
+					if(smallestHpNr==7){
+						var x = barbArrivalTimes[activeBarbNr].arrival[smallestHpNr];
+					}else{	
+						var x = barbArrivalTimes[activeBarbNr+1].arrival[smallestHpNr+1]; 
+					}
+					barbArrivalHold = x;
+					console.log('barbArrivalHold ' + barbArrivalHold);
+
+					barbAttackLock2=false;
+
+				}
+			}
+		}
+	
+}
+
+function barbArrivalTimer2(){
+
+if(barbAttackLock2==false){  // kui false siis tegutse
+
+	if(barbDamageLock2==false){
+				barbarians[activeBarbNr]-=barbDamage;
+				console.log(barbarians);
+	}
+
+	barbDamageLock2=true;
+
+	barbArrivalHold-=1;
+	console.log('barbArrivalHold ' + barbArrivalHold);
+
+	barbDisplay2();
+	
+	if(barbArrivalHold==0){
+		$('.barb-timer'+ (smallestHpNr+1)).css('display','none');
+		$('.barb-timer'+ (smallestHpNr+1) + '-nr').css('display','none');
+
+			if(battleCheck[smallestHpNr]=="forest"){  // IF BARB ARE ATTACKING FOREST
+					
+						
+						forestHp[smallestHpNr-1].hitpoints -= barbDamage;
+						//alert(forestHp[smallestHpNr-1].hitpoints);
+						$('.forest-hp'+(smallestHpNr)).html(forestHp[smallestHpNr-1].hitpoints);
+						barbAttackLock2=true;
+						barbDamageLock2=false;
+
+						deadForest2(smallestHpNr-1); // barbarian killing a forest	
+
+			}else if(battleCheck[smallestHpNr]=="knight"){
+
+					knights[smallestHpNr]-=barbDamage;
+
+				
+					if(	!(knights[smallestHpNr]<=0) ){
+
+						if(smallestHpNr==0){
+							$('.knight-hp').html(knights[smallestHpNr]);
+						}else if(smallestHpNr==7){ // if barb attacks castle 7 (last castle from array)
+							$('.barbarian-hp').html(knights[7]);
+						}else{
+							$('.forest-hp'+(smallestHpNr)).html(knights[smallestHpNr]);
+						}
+					}
+					
+						barbAttackLock2=true;
+						barbDamageLock2=false;
+						//alert('smallestHpNr ' + smallestHpNr);
+						deadCastle(smallestHpNr-1);		
+			}	
+	}	
+
+}
+
+
+}
+
+function barbDisplay2(){ // if barb attack knight
+			$('.barb-timer'+ (smallestHpNr+1)).css('display','block');
+			$('.barb-timer'+ (smallestHpNr+1) + '-nr').css('display','block');
+			$('.barb-timer'+ (smallestHpNr+1) + '-nr li').eq(0).html(barbDamage);
+			$('.barb-timer'+ (smallestHpNr+1) + '-nr li').eq(1).html(barbArrivalHold);
+}
+
+
+
+
+
+
+$('.defeat-btn').mousedown(function(){
+
+	resetGame(true);
+
+});
+
+//resetGame();
+/*---------------------------------------------------------------------------------------------*/
+
+function resetGame(gameover){
+
+$('.ring').css('display', 'none');	
+
+
+
+if(gameover==true){
+	level=1;
+	$('.level').html(level);
+	lvlCount=0;
+	barbSpeedUp = 500;
+}
+
+$('.flag').css('display','none');
+$('.flag-stats').css('display','none');
+
+clearTimeout(intervalHandle);	
+clearTimeout(intervalHandle2);	
+clearTimeout(intervalHandle3);	
+clearTimeout(intervalHandle4);	
+clearTimeout(barbArrivalIntervalHandle);	
+clearTimeout(npcIntervalHandle);	
+
+
+	
+
+barbArrivalIntervalHandle = setInterval(barbArrivalTimer,1000);
+npcIntervalHandle = setInterval(npcStart,1000);
+
+$('.victory, .victory-btn, .barbarian, .castle, .barb-timer2-nr, .barb-timer-nr, .timer2, .timer-nr, .timer, .defeat, .defeat-btn').css('display','none');
+
+$('.barbarian7, .castle1, .forest').css('display','block');
+
+$('.eye').attr('src','images/eye1.png');
+
+	/* KNIGHT HITPOINTS */
+knights = [50, 0, 0, 0, 0, 0, 0, 0];
+
+/* BARB HITPOINTS */
+barbarians = [0, 0, 0, 0, 0, 0, 50, 0];
+
+intervalHandle2 = setInterval(arrivalTimer,1000);
+//intervalHandle3; // super bonus
+
+
+/* BARB RESTORE SPEED */
+intervalHandle4 = setInterval(barbTimer2,500); // 500 default  
+
+/* KNIGHT RESTORE SPEED */
+intervalHandle = setInterval(timer,500); // knight  timer
+
+flagBonus = 2;
+flagBonusNr = 250; // how fast time moves
+/* SUPER CASTLE */
+//intervalHandle3 = setInterval(superTime,flagBonusNr); 
+
+/* TIME WHEN BARB STARTS ATTACKING KNIGHT ALSO */
+frenzyTimer = Math.floor((Math.random() * 30) + 40);
+
+/* FRENZY ATTACK */
+frenzyAttack = 70; // when gametime is higher then frenzyattack, then always attack someone
+
+/* CHANGES WILL HAPPEN BASED ON GAMETIME */
+gameTime = 0;
+
+/* SUPER CASTLE TIMER */
+flagBonusTime = 30;   // starting time
+flagBonusTimeAdd = 30; // next lvl starting time
+
+/* SUPER FOREST */
+superForest = Math.floor((Math.random() * 20) + 25);
+
+
+$('.knight-hp').html(knights[0]);
+$('.barbarian-hp').html(barbarians[6]);
+
+
+
+
+knightSelect = 0;
+
+lockOn = true;
+
+timer0 = true;
+timer1 = false;
+timer2 = false;
+timer3 = false;
+timer4 = false;
+timer5 = false;
+timer6 = false;
+timer7 = false;
+
+barbTimer = [false, false, false, false, false, false, true, false];
+
+castleIndex = 0;
+forestIndex = 0;
+barbarianIndex = 0;
+
+arrivalHolds = [0,0,0,0,0,0];
+arrivalHolds2 = [0,0,0,0,0,0,0,0]; // attacking barbarian time
+
+damage = [0,0,0,0,0,0];
+damage2 = [0,0,0,0,0,0,0,0]; // damage to barbarian
+
+
+arrivalLock1 = true;
+arrivalLock2 = true;
+arrivalLock3 = true;
+arrivalLock4 = true;
+arrivalLock5 = true;
+arrivalLock6 = true;
+arrivalLock7 = true;
+
+
+
+
+barbarianArrivalLock = [true,true,true,true,true,true,true,true];
+
+damageLock = [false,false,false,false,false,false,false,false];
+
+battleCheck = ['knight','forest','forest','forest','forest','forest','forest','barb'];
+
+barbInArray = false; // checks if there is barbarian in array, if there isn't - victory
+
+
+hpComparing = [];
+smallestHp = 1000;
+knightsHpComparing = [];
+
+
+forestHp = [
+	{
+		name:"forest1",
+		hitpoints:55
+	},
+	{
+		name:"forest2",
+		hitpoints:55
+	},
+	{
+		name:"forest3",
+		hitpoints:55
+	},
+	{
+		name:"forest4",
+		hitpoints:55
+	},
+	{
+		name:"forest5",
+		hitpoints:55
+	},
+	{
+		name:"forest6",
+		hitpoints:55
+	}
+];
+
+
+
+
+for(var i=0; i<forestHp.length; i++){
+	 var x = Math.floor((Math.random() * 45) + 25);
+	 forestHp[i].hitpoints=x;
+	 $( '.forest-hp' ).eq( i ).html(forestHp[i].hitpoints);
+	 	
+}
+
+
+forestHp[5].hitpoints=superForest; // super forest
+ $('.forest-hp6').html(forestHp[5].hitpoints);
+ 
+ 
+
+ // intervalHandle = setInterval(timer,500); // this is how you change timer speed
+
+
+
+
+
+
+/* ------------------- ARTIFICIAL INTELLIGENCE ------------------------------------------------------*/
+
+forestHpComparing = []; 
+smallestHp = 100;
+smallestHpNr = 0;
+
+
+barbHpComparing = []; 
+biggestBarbHp = 0;
+biggestBarbHpNr = 0;
+
+
+activeBarbNr;
+barbSelect;
+barbDamage = 0;
+barbArrivalHold = 0;
+
+barbAttackLock = true;
+barbAttackLock2 = true; // if barb also starts to attack knights lock
+
+
+barbDamageLock = false;
+barbDamageLock2 = false;
+
+
+knightInArray = true; // if false, u lose
+
+	
+} // resetGame end
+
+
+
+
+
+$('.victory-btn').mousedown(function(){
+	nextGame();
+});
+
+
+
+
+var nextLvlTimer = 3;
+
+
+
+function nextLvl(){
+
+	$('.next-lvl').css('display','block');
+
+	$('.next-lvl .lvl-name').html('LEVEL ');
+	$('.next-lvl .lvl-nr').html(level);
+
+	nextLvlTimer-=1;
+	if(nextLvlTimer==0){
+		$('.next-lvl').css('display','none');
+		clearTimeout(nextLvlTimerHandle);
+		nextLvlTimer = 3;
+	}
+
+}
+
+
+
+function nextGame(){ // the higher the level, the less speed barb will gain
+
+	resetGame();
+
+	hardness = 0;
+	barbExtraHp = 0;
+
+	level+=1;
+	lvlCount+=1;
+	$('.level').html(level);
+
+	for(var i=0; i<lvlCount; i++){
+		//hardness+=40;    // how fast barb will regen hp each level
+		barbExtraHp+=1;  // how much extra hp barb gets each level
+	}
+
+	hardness = Math.floor(((24 * barbSpeedUp)/100)); // 12% speed up
+
+	barbSpeedUp -= hardness;
+
+
+	/*
+		          500 - 100%
+		          ? - 12%
+	*/
+
+	barbarians[6]+=barbExtraHp;
+	$('.barbarian-hp').html(barbarians[6]);
+	
+
+	clearTimeout(intervalHandle4);	
+	intervalHandle4 = setInterval(barbTimer2,barbSpeedUp); // 500 default  
+
+	nextLvlTimerHandle = setInterval(nextLvl,1000);
+	nextLvl();
+}
+
+
+
+
+}); // jquery end
+
+
+
+
+
+
+</script>
+
+</body>
+
+</html>
